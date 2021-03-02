@@ -6,14 +6,14 @@ to make them scrollable and to enforce an aspect ratio.
 ### Create a conda environment
 ```bash
 conda init bash # => Open new terminal
-conda create --name extended-frames python=3.8
-conda install --name extended-frames tk
+conda create --name extended_frames python=3.8
+conda install --name extended_frames tk
 ```
 
 ### Activate the conda environment and start the program
 ```bash
-cd extended-frames/
-conda activate extended-frames
+cd extended_frames/
+conda activate extended_frames
 ./main.py -t NestedFrame -t ScrollFrame -t AspectRatioFrame
 ```
 
