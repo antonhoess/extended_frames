@@ -1,0 +1,4 @@
+* When shrinking the main window, first the items at the bottom (below the scrollable window) disappear, instead of shrinking the list. Dies it make sense?o
+* Make e.g. max_width (all parameter from __init__()) as properties.
+* In ScrollFrame.__init__(): self.bind("<Configure>", self._reset_scroll_region) -> Point to the fact, the the "<Configure>" event is used internally. Or even better: Maintain it internally as it is done in AspectRatioFrame (use unbind and bind, to keep the event bound).
+
